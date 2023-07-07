@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<!-- <meta charset="utf-8">
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
@@ -13,7 +13,7 @@
 	<meta property="og:title" content="Zenix - Crypto Laravel Admin Dashboard" />
 	<meta property="og:description" content="Zenix | Dashboard Light" />
 	<meta property="og:image" content="../social-image.png" />
-	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="telephone=no"> -->
 	<title>Assment List</title>
 	<!-- Favicon icon -->
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -189,7 +189,7 @@
 				<div class="sub-header">
 					<div class="d-flex align-items-center flex-wrap me-auto">
 						<h5 class="dashboard_bar">
-							ওয়ালেট </h5>
+							পেন্ডিং আবেদন প্রতিবেদন </h5>
 					</div>
 				</div>
 			</div>
@@ -226,7 +226,6 @@
 				</a>
 			</li>
 			<li class="nav-label">সেবা বক্স</li>
-			
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 				<i class="flaticon-077-menu-1"></i>
 				<span class="nav-text">আবেদন</span>
@@ -243,7 +242,7 @@
 				<li><a href="new_application_history.html">নতুন জন্মসনদ </a></li>
 				<li><a href="correction_application_history .html">সংশোধন</a></li>
                 <li><a href="pending_application.html">পেন্ডিং</a></li>
-			</ul>		
+			</ul>	
 			<li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 				<i class="uil uil-life-ring"></i>
 				<span class="nav-text">সেটিং</span>
@@ -268,7 +267,7 @@
 				<li><a href="admin.html">রিপোর্ট</a></li>
 				<li><a href="admin setting.html">সমস্যা</a></li>
 			</ul>
-		</li>
+		</li>	
 		
 			
 	</div>
@@ -286,43 +285,51 @@
             Content body start
         ***********************************-->
 		<div class="content-body">
-			<!-- row -->
-			<div class="container-fluid">
-				<div class="form-head mb-sm-5 mb-3 d-flex align-items-center flex-wrap">
-					<h2 class="font-w600 mb-0 me-auto mb-2 text-black">My Wallet</h2>
-					<a href="javascript:void(0);" class="btn btn-secondary mb-2">+ Add Wallet</a>
-				</div>
-				<div class="row">
-					
-					<div class="col-xl-9 col-xxl-8">
-						<div class="row">
-
-							<div class="col-xl-12">
-								<div class="card">
-									<div class="card-body">
-										<div class="row align-items-end">
-											<div class="col-xl-6 col-lg-12 col-xxl-12">
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="mb-4">
-															<p class="mb-2">Main Balance</p>
-															<h4 class="text-black">5000</h4>
-														</div>
-														
-
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-
-
+            <!-- row -->
+        <div class="container-fluid">
+			<div class="card">
+			
+			<div class="card-body">
+				<div class="table-responsive">
+					<table class="table style-1" id="ListDatatableView">
+						<thead>
+							<tr>
+								<th>ক্রমিক</th>
+								<th>নাম</th>
+								<th>পিতা</th>
+                                <th>মাতা</th>
+								<th>আবেদন নং</th>
+								<th>মোবাইল নং</th>
+								<th>একশন</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<h6>1.</h6>
+								</td>
+								
+								<td>
+									শাহ আলম
+								</td>
+								<td>
+									শাহ আলম
+								</td>
+								<td>
+									হাজেরা খাতুন
+								</td>
+								<td>
+									7510766000001
+								</td>
+                                <td>
+									01894747576
+								</td>
+                               
+                                <button type="button" class="btn btn-rounded btn-secondary"><span class="btn-icon-start text-secondary"><i class="fa fa-share-alt color-secondary"></i> </span>send</button>
+                            </tr>
+                            
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>

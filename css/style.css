@@ -45,6 +45,7 @@
   background: -webkit-linear-gradient(top, #f0a907 0%, #f53c79 100%);
   background: linear-gradient(to bottom, #f0a907 0%, #f53c79 100%) !important;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0a907', endColorstr='#f53c79',GradientType=0 ); }
+  
 
 .gradient-2 {
   background: #4dedf5;
@@ -28477,5 +28478,6 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
     background-color: transparent; }
     [data-theme-version="dark"] .footer .copyright p {
       color: #fff; }
+      
 
 /*# sourceMappingURL=style.css.map */
